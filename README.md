@@ -90,5 +90,5 @@ Code: MIT (see `LICENSE`). Result tables: CC BY 4.0. The BRISC 2025 images are s
 
 ## Contact
 
-Octavian — Department of Information Systems, Universitas Hasanuddin, Makassar, Indonesia —
+Octavian — Information Systems, Universitas Hasanuddin, Makassar, Indonesia —
 octavian@unhas.ac.id — ORCID [0009-0005-9893-3523](https://orcid.org/0009-0005-9893-3523)

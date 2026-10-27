@@ -1,0 +1,13 @@
+arch,cls,background_reliance,bg_rel,flip_bg,bg_frac
+densenet121,glioma,0/3 seed,0.0267 ± 0.0117,0.0013 ± 0.0023,0.4143 ± 0.0001
+densenet121,meningioma,3/3 seed,0.2281 ± 0.0073,0.0051 ± 0.0051,0.3990 ± 0.0014
+densenet121,no_tumor,0/3 seed,-0.0245 ± 0.0084,0.0000 ± 0.0000,0.3561 ± 0.0001
+densenet121,pituitary,0/3 seed,0.0183 ± 0.0245,0.0011 ± 0.0020,0.2466 ± 0.0000
+efficientnet_b0,glioma,0/3 seed,-0.0604 ± 0.0172,0.0014 ± 0.0024,0.4124 ± 0.0011
+efficientnet_b0,meningioma,3/3 seed,0.1656 ± 0.0629,0.0301 ± 0.0050,0.3992 ± 0.0018
+efficientnet_b0,no_tumor,0/3 seed,-0.0111 ± 0.0102,0.0000 ± 0.0000,0.3568 ± 0.0003
+efficientnet_b0,pituitary,0/3 seed,-0.0480 ± 0.0140,0.0011 ± 0.0020,0.2468 ± 0.0002
+resnet50,glioma,0/3 seed,0.0105 ± 0.0372,0.0027 ± 0.0047,0.4136 ± 0.0012
+resnet50,meningioma,2/3 seed,0.0795 ± 0.0517,0.0050 ± 0.0050,0.3995 ± 0.0003
+resnet50,no_tumor,0/3 seed,-0.0290 ± 0.0119,0.0000 ± 0.0000,0.3560 ± 0.0001
+resnet50,pituitary,0/3 seed,-0.0161 ± 0.0219,0.0000 ± 0.0000,0.2468 ± 0.0003

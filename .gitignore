@@ -1,0 +1,12 @@
+# model checkpoints, caches and full run outputs (large; reproducible with the notebook)
+*.pt
+*.npz
+cache/
+brisc_audit/
+*_results.zip
+# BRISC images must not be redistributed
+*.jpg
+*.png
+# Python / Jupyter
+__pycache__/
+.ipynb_checkpoints/

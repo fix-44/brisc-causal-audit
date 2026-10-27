@@ -1,0 +1,5 @@
+cls,n_test,dup_of_train_or_val,within_test_extra_copies,dedup_remaining,pct_removed
+no_tumor,140,0,1,139,0.7
+glioma,254,0,1,253,0.4
+meningioma,306,98,3,205,33.0
+pituitary,300,5,0,295,1.7

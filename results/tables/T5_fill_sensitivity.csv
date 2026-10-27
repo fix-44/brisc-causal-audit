@@ -1,0 +1,21 @@
+method,cls,blur,imagenet_mean,nconv
+cam,glioma,MIXED: TUMOR + CONTEXT [other-head],MIXED: TUMOR + CONTEXT [other-head],MIXED: TUMOR + CONTEXT [other-head]
+cam,meningioma,MIXED: TUMOR + CONTEXT [other-head],MIXED: TUMOR + CONTEXT [other-head],MIXED: TUMOR + CONTEXT [other-head]
+cam,no_tumor,REGION-SPECIFIC [other-head],REGION-SPECIFIC [other-head],REGION-SPECIFIC [other-head]
+cam,pituitary,OFF-TUMOR RELIANCE [other-head],OFF-TUMOR RELIANCE [other-head],OFF-TUMOR RELIANCE [other-head]
+eigencam,glioma,MIXED: TUMOR + CONTEXT [other-head],MIXED: TUMOR + CONTEXT [other-head],MIXED: TUMOR + CONTEXT [other-head]
+eigencam,meningioma,PATHOLOGY-GROUNDED,PATHOLOGY-GROUNDED,PATHOLOGY-GROUNDED
+eigencam,no_tumor,REGION-SPECIFIC [other-head],REGION-SPECIFIC [other-head],REGION-SPECIFIC [other-head]
+eigencam,pituitary,OFF-TUMOR RELIANCE [other-head],OFF-TUMOR RELIANCE [other-head],OFF-TUMOR RELIANCE [other-head]
+ig,glioma,MIXED: TUMOR + CONTEXT [other-head],MIXED: TUMOR + CONTEXT [other-head],MIXED: TUMOR + CONTEXT [other-head]
+ig,meningioma,PATHOLOGY-GROUNDED,PATHOLOGY-GROUNDED,PATHOLOGY-GROUNDED
+ig,no_tumor,INCONCLUSIVE,NON-SPECIFIC (OOD-SENSITIVE),REGION-SPECIFIC [other-head]
+ig,pituitary,MIXED: TUMOR + CONTEXT [other-head],OFF-TUMOR RELIANCE [other-head],OFF-TUMOR RELIANCE [other-head]
+spectral,glioma,PATHOLOGY-GROUNDED,MIXED: TUMOR + CONTEXT [other-head],PATHOLOGY-GROUNDED
+spectral,meningioma,PATHOLOGY-GROUNDED,PATHOLOGY-GROUNDED,PATHOLOGY-GROUNDED
+spectral,no_tumor,REGION-SPECIFIC [other-head],REGION-SPECIFIC [other-head],REGION-SPECIFIC [other-head]
+spectral,pituitary,OFF-TUMOR RELIANCE [other-head],OFF-TUMOR RELIANCE [other-head],OFF-TUMOR RELIANCE [other-head]
+spectral_subspace,glioma,PATHOLOGY-GROUNDED,MIXED: TUMOR + CONTEXT [other-head],PATHOLOGY-GROUNDED
+spectral_subspace,meningioma,MIXED: TUMOR + CONTEXT [peritumoral],MIXED: TUMOR + CONTEXT [peritumoral],MIXED: TUMOR + CONTEXT [peritumoral]
+spectral_subspace,no_tumor,REGION-SPECIFIC [other-head],REGION-SPECIFIC [other-head],REGION-SPECIFIC [other-head]
+spectral_subspace,pituitary,OFF-TUMOR RELIANCE [other-head],OFF-TUMOR RELIANCE [other-head],OFF-TUMOR RELIANCE [other-head]

@@ -1,0 +1,34 @@
+syn_condition,arm,budget,n_pos,sensitivity,n_neg,specificity
+arrowHead,Arm 1 · cam,1.0,4,0.75,2,1.0
+arrowHead,Arm 1 · cam,2.0,4,0.75,2,1.0
+arrowHead,Arm 1 · eigencam,1.0,4,0.75,2,1.0
+arrowHead,Arm 1 · eigencam,2.0,4,0.75,2,1.0
+arrowHead,Arm 1 · ig,1.0,4,0.5,2,1.0
+arrowHead,Arm 1 · ig,2.0,4,0.75,2,1.0
+arrowHead,Arm 1 · spectral,1.0,4,0.75,2,1.0
+arrowHead,Arm 1 · spectral,2.0,4,0.75,2,1.0
+arrowHead,Arm 1 · spectral_subspace,1.0,4,0.75,2,1.0
+arrowHead,Arm 1 · spectral_subspace,2.0,4,0.75,2,1.0
+cornerR,Arm 1 · cam,1.0,3,0.0,3,1.0
+cornerR,Arm 1 · cam,2.0,3,0.6666666666666666,3,1.0
+cornerR,Arm 1 · eigencam,1.0,3,0.0,3,1.0
+cornerR,Arm 1 · eigencam,2.0,3,0.6666666666666666,3,1.0
+cornerR,Arm 1 · ig,1.0,3,1.0,3,1.0
+cornerR,Arm 1 · ig,2.0,3,0.3333333333333333,3,1.0
+cornerR,Arm 1 · spectral,1.0,3,0.0,3,1.0
+cornerR,Arm 1 · spectral,2.0,3,0.6666666666666666,3,1.0
+cornerR,Arm 1 · spectral_subspace,1.0,3,0.0,3,1.0
+cornerR,Arm 1 · spectral_subspace,2.0,3,0.6666666666666666,3,1.0
+cornerRp80,Arm 1 · cam,1.0,3,0.0,3,1.0
+cornerRp80,Arm 1 · cam,2.0,3,0.0,3,1.0
+cornerRp80,Arm 1 · eigencam,1.0,3,0.0,3,1.0
+cornerRp80,Arm 1 · eigencam,2.0,3,0.0,3,1.0
+cornerRp80,Arm 1 · ig,1.0,3,0.0,3,1.0
+cornerRp80,Arm 1 · ig,2.0,3,0.0,3,1.0
+cornerRp80,Arm 1 · spectral,1.0,3,0.0,3,1.0
+cornerRp80,Arm 1 · spectral,2.0,3,0.0,3,1.0
+cornerRp80,Arm 1 · spectral_subspace,1.0,3,0.0,3,1.0
+cornerRp80,Arm 1 · spectral_subspace,2.0,3,0.0,3,1.0
+arrowHead,Background arm (marker-induced),,4,0.25,2,1.0
+cornerR,Background arm (marker-induced),,3,1.0,3,1.0
+cornerRp80,Background arm (marker-induced),,3,1.0,3,1.0

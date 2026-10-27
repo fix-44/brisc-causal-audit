@@ -1,0 +1,5 @@
+cls,n,pct_512x512,pct_non_square,pct_rgb_file,pct_bg_nonblack,bg_mean_median,pct_bright_marks_outside_head
+no_tumor,1207,31.23,36.7,100.0,11.85,0.28,2.32
+glioma,1401,100.0,0.0,12.42,6.07,1.26,3.07
+meningioma,1635,84.95,12.78,56.64,21.47,2.42,3.36
+pituitary,1757,97.55,0.4,47.07,66.25,4.42,1.54

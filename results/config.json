@@ -1,0 +1,130 @@
+{
+  "QUICK_TEST": false,
+  "BASE_DIR": "/kaggle/input/datasets/briscdataset/brisc2025/brisc2025",
+  "OUT_DIR": "/kaggle/working/brisc_audit",
+  "PRETRAINED": true,
+  "CLASS_NAMES": [
+    "no_tumor",
+    "glioma",
+    "meningioma",
+    "pituitary"
+  ],
+  "IMG_SIZE": 224,
+  "SPLIT_SEED": 42,
+  "VAL_FRAC": 0.2,
+  "ARCHS": [
+    "resnet50",
+    "densenet121",
+    "efficientnet_b0"
+  ],
+  "SEEDS": [
+    0,
+    1,
+    2
+  ],
+  "EPOCHS": 10,
+  "BATCH_SIZE": 32,
+  "LR": 0.0001,
+  "STEP_SIZE": 4,
+  "GAMMA": 0.1,
+  "PA_PERMUTATIONS": 19,
+  "PA_COMPONENTS": 50,
+  "N_RANDOM_SUBSPACE": 20,
+  "MAPS": [
+    "spectral",
+    "spectral_subspace",
+    "cam",
+    "eigencam",
+    "ig"
+  ],
+  "BUDGETS": [
+    1.0,
+    2.0
+  ],
+  "PRIMARY_BUDGET": 2.0,
+  "N_RAND": 30,
+  "FILL_MODE": "nconv",
+  "SENSITIVITY_FILLS": [
+    "blur",
+    "imagenet_mean"
+  ],
+  "MAX_TUMOR_OVERLAP": 0.1,
+  "MAX_SELF_OVERLAP": 0.1,
+  "FG_TOL": 0.15,
+  "MIN_VALID_TRIALS": 10,
+  "PERI_RING_PX": 15,
+  "BORDER_PX": 16,
+  "NCONV_SIGMA": 24.0,
+  "AUDIT_BATCH": 16,
+  "FORWARD_CHUNK": 256,
+  "IG_STEPS": 20,
+  "IG_SMOOTH_SIGMA": 4.0,
+  "PRIMARY_METRIC": "margin",
+  "ONLY_CORRECT": true,
+  "ALPHA": 0.05,
+  "R_MIN": 0.3,
+  "REL_MIN": 0.05,
+  "IN_TUMOR_MAX": 0.25,
+  "OOD_FLIP": 0.1,
+  "INERT_FLIP": 0.02,
+  "N_BOOT": 2000,
+  "N_NULL": 2000,
+  "RUN_SYNTHETIC": true,
+  "SYN_ARCH": "resnet50",
+  "SYN_SEEDS": [
+    0,
+    1,
+    2
+  ],
+  "SYN_TARGET": "meningioma",
+  "SYN_CONDITIONS": {
+    "cornerR": {
+      "kind": "corner_text",
+      "p_target": 1.0,
+      "p_other": 0.0,
+      "seed": 123
+    },
+    "cornerRp80": {
+      "kind": "corner_text",
+      "p_target": 0.8,
+      "p_other": 0.2,
+      "seed": 133
+    },
+    "arrowHead": {
+      "kind": "head_arrow",
+      "p_target": 1.0,
+      "p_other": 0.0,
+      "seed": 143
+    }
+  },
+  "SYN_TEXT": "R",
+  "ARROW_LEN": 22,
+  "MARKER_ZONE_PX": 32,
+  "SYN_AUDIT_TARGET_ONLY": true,
+  "DUP_HAMMING_CAND": 4,
+  "DUP_PIXEL_DIFF": 3.0,
+  "RUN_FINGERPRINT": true,
+  "FP_PATCH": 56,
+  "FP_PER_IMAGE": 4,
+  "FP_MIN_FG": 0.95,
+  "FP_EXCL_DIL": 24,
+  "FP_INPUT": 112,
+  "FP_PCA": 256,
+  "FP_RESID_SIGMA": 1.5,
+  "MAX_HOURS": 11.0,
+  "FORCE_RERUN": false,
+  "QUICK_TRAIN_PER_CLASS": 60,
+  "QUICK_TEST_PER_CLASS": 25,
+  "T_GLOBAL": 1793059648.3059719,
+  "USE_AMP": true,
+  "N_CLASSES": 4,
+  "TARGET_IDX": 2,
+  "PRIMARY": "dM",
+  "SYN_CONDS": [
+    "cornerR",
+    "cornerRp80",
+    "arrowHead"
+  ],
+  "TD": "/kaggle/working/brisc_audit/tables",
+  "FD": "/kaggle/working/brisc_audit/figures"
+}
